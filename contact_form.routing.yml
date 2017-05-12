@@ -1,0 +1,31 @@
+contact_form_list:
+  path: '/contact_form'
+  defaults:
+    _controller: '\Drupal\contact_form\Controller\AdminController::content'
+  requirements:
+    _role: 'administrator+authenticated'
+
+contact_form_add:
+  path: '/contact_form/add'
+  defaults:
+    _form: '\Drupal\contact_form\AddForm'
+    _title: 'Create contact'
+  requirements:
+    _role: 'administrator+authenticated+anonymous'
+   
+contact_form_edit:
+  path: '/contact_form/edit/{id}'
+  defaults:
+    _form: '\Drupal\contact_form\AddForm'
+    _title: 'Edit contact'
+  requirements:
+    _role: 'administrator'
+
+contact_form_delete:
+  path: '/contact_form/delete/{id}'
+  defaults:
+    _form: 'Drupal\contact_form\DeleteForm'
+    _title: 'Delete contact'
+  requirements:
+    _role: 'administrator'
+

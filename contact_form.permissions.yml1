@@ -1,0 +1,13 @@
+bd_contact manage contact forms:
+    title: 'view submissions'
+    description: 'view submissions'
+    restrict access: true
+bd_contact add contact form:
+    title: 'add contact'
+    description: 'add contact'
+    restrict access: true
+bd_contact delete contact forms:
+    title: 'Delete submission'
+    description: 'Delete submission'
+    restrict access: true
+

@@ -1,0 +1,4 @@
+contact_form_list:
+  title: Contact form
+  route_name: contact_form_list
+  base_route: system.admin_content
