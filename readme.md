@@ -15,3 +15,8 @@ W przysz³oœci bêdzie mia³ mo¿liwoœæ równie¿ ich edycji - /contact_form/edit/{id}
 W pliku contact_form.install mamy prosty skrypt dodaj¹cy niezbed¹ do dzia³ania modu³u bazê
 
 Aplikacja dzia³a poprawnie na pewno na drupalu 8.3.1
+
+
+Projektowanie rozwi¹zañ internetowych
+
+Rafa³ Jakubiec grupa 1b studia zoaoczne sem 2
